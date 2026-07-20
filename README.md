@@ -4,20 +4,20 @@ My daily LeetCode practice for Data Engineering interviews.
 
 ## Progress Tracker
 
-| Category | Solved |
-|----------|--------|
-| SQL | 1 |
-| Arrays | 0 |
-| Two Pointers | 0 |
-| Linked List | 0 |
-| Trees | 0 |
-| Binary Search | 0 |
-| Hash Map | 0 |
-| Stack | 0 |
-| Dynamic Programming | 0 |
-| Sorting | 0 |
-| Intervals | 0 |
-| Graphs | 0 |
+| Category | Solved | Link |
+|----------|--------|------|
+| SQL | 1 | [View](SQL/) |
+| Arrays | 3 | [View](Python/Arrays/) |
+| Two Pointers | 0 | [View](Python/Two_Pointers/) |
+| Linked List | 0 | [View](Python/Linked_List/) |
+| Trees | 0 | [View](Python/Trees/) |
+| Binary Search | 0 | [View](Python/Binary_Search/) |
+| Hash Map | 0 | [View](Python/Hash_Map/) |
+| Stack | 0 | [View](Python/Stack/) |
+| Dynamic Programming | 0 | [View](Python/Dynamic_Programming/) |
+| Sorting | 0 | [View](Python/Sorting/) |
+| Intervals | 0 | [View](Python/Intervals/) |
+| Graphs | 0 | [View](Python/Graphs/) |
 
 ---
 
@@ -28,6 +28,9 @@ leetcode/
 │
 ├── Python/
 │   ├── Arrays/
+│   │   ├── 0075-sort-colors.py
+│   │   ├── 0344-reverse-string.py
+│   │   └── 0026-remove-duplicates.py
 │   ├── Two_Pointers/
 │   ├── Linked_List/
 │   ├── Trees/
@@ -40,18 +43,15 @@ leetcode/
 │   └── Graphs/
 │
 └── README.md
-plain
+
+
 
 ## File Naming Convention
 {question-number}-{problem-name}.{ext}
-plain
-
-
 
 ## Platforms
 - LeetCode
 - GeeksforGeeks
 - HackerRank
-
 
 
