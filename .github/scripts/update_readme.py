@@ -1,16 +1,29 @@
 import os
 
 def count_files(folder_path):
-    """Count .py files in a folder"""
+    """Count .py and .sql files in a folder"""
     if not os.path.exists(folder_path):
+        print(f"DEBUG: Folder not found - {folder_path}")
         return 0
-    return len([f for f in os.listdir(folder_path) if f.endswith('.py')])
+    
+    try:
+        files = os.listdir(folder_path)
+        py_files = [f for f in files if f.endswith('.py')]
+        sql_files = [f for f in files if f.endswith('.sql')]
+        total = len(py_files) + len(sql_files)
+        
+        print(f"DEBUG: {folder_path} - .py: {len(py_files)}, .sql: {len(sql_files)}, Total: {total}")
+        return total
+        
+    except Exception as e:
+        print(f"DEBUG: Error reading {folder_path} - {e}")
+        return 0
 
 def generate_readme():
     topics = [
         ('Python/Arrays', 'Arrays'),
         ('Python/Easy', 'Easy'),
-        ('Python/SQL', 'SQL'),
+        ('SQL/Easy', 'SQL'),
     ]
     
     readme = """# LeetCode Solutions
@@ -45,7 +58,8 @@ My daily LeetCode practice in Python.
     
     readme += """
 ## File Naming Convention
-`XXXX-problem-name.py` (e.g., `0001-two-sum.py`)
+- Python: `XXXX-problem-name.py`
+- SQL: `XXX-problem-name.sql`
 """
     
     with open('README.md', 'w') as f:
