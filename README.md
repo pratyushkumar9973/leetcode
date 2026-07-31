@@ -7,7 +7,6 @@ My daily LeetCode practice in Python.
 |-------|--------|-------|------|
 | Python/Arrays/ | 🟢 Active | 6 | [View](Python/Arrays/) |
 | Python/Easy/ | 🟢 Active | 4 | [View](Python/Easy/) |
-| Python/LinkedList/ | 🟢 Active | 1 | [View](Python/LinkedList/) |
 | SQL/Easy/ | 🟢 Active | 5 | [View](SQL/Easy/) |
 
 ## Progress
@@ -16,7 +15,6 @@ My daily LeetCode practice in Python.
 |-------|--------|
 | Arrays | 6 |
 | Easy | 4 |
-| LinkedList | 1 |
 | SQL | 5 |
 | **Total** | **15** |
 
