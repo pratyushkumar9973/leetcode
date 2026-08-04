@@ -9,6 +9,7 @@ My daily LeetCode practice in Python.
 | Python/Easy/ | 🟢 Active | 5 | [View](Python/Easy/) |
 | SQL/Easy/ | 🟢 Active | 6 | [View](SQL/Easy/) |
 
+
 ## Progress
 
 | Topic | Solved |
