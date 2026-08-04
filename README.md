@@ -1,7 +1,7 @@
 # LeetCode Solutions
 My daily LeetCode practice in Python.
 
-## Topics
+## Topics 
 
 | Topic | Status | Files | Link |
 |-------|--------|-------|------|
