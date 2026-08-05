@@ -8,8 +8,8 @@ My daily LeetCode practice in Python.
 | Python/Arrays/ | 🟢 Active | 6 | [View](Python/Arrays/) |
 | Python/Easy/ | 🟢 Active | 5 | [View](Python/Easy/) |
 | SQL/Easy/ | 🟢 Active | 7 | [View](SQL/Easy/) |
- 
- ## Progress
+
+## Progress
 
 | Topic | Solved |
 |-------|--------|
