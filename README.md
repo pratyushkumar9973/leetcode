@@ -7,7 +7,7 @@ My daily LeetCode practice in Python.
 |-------|--------|-------|------|
 | Python/Arrays/ | 🟢 Active | 10 | [View](Python/Arrays/) |
 | Python/Easy/ | 🟢 Active | 6 | [View](Python/Easy/) |
-| SQL/Easy/ | 🟢 Active | 14 | [View](SQL/Easy/) |
+| SQL/Easy/ | 🟢 Active | 15 | [View](SQL/Easy/) |
 
 ## Progress
 
@@ -15,8 +15,8 @@ My daily LeetCode practice in Python.
 |-------|--------|
 | Arrays | 10 |
 | Easy | 6 |
-| SQL | 14 |
-| **Total** | **30** |
+| SQL | 15 |
+| **Total** | **31** |
 
 ## File Naming Convention
 - Python: `XXXX-problem-name.py`
