@@ -121,6 +121,4 @@
 │  Comment 6 (parent_id = 7) kyun ignore hua?                 │
 │  - s1 mein parent_id IS NULL filter se post 7 nahi aata    │
 │  - Kyunki 7 kisi ka comment hai, post nahi                  │
-│  - Toh s2 mein bhi ye row nahi aayegi                       │
-│                                                             │
-│  Duplicate posts (
+│  - Toh s2 mein bhi ye row nahi aayegi      
